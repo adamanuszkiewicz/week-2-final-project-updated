@@ -721,7 +721,7 @@ PRICING
 
 .plans {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     position: relative;
     padding-top: 24px;
@@ -731,11 +731,11 @@ PRICING
 .plan {
     width: 100%;
     max-width: 384px;
-    margin: 62px, 34px, 0, 0;
+    margin: 62px, 34px, 0 0;
     padding-top: 8px;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0, ) 0px 0px 0px 0px rgba(0, 0, 0, 0,) 0px 0px 0px 0px rgba(0, 0, 0, 0.1) 0px 1px 3px 0px rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    box-shadow: rgba(0, 0, 0, 0, ) 0px 0px 0px 0px rgba(0, 0, 0, 0,) 0px 0px 0px 0px rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
     position: relative;
     z-index: 100;
     background: #fff;
@@ -823,7 +823,7 @@ PRICING
 .plan:nth-child(1) .plan__stripe,
 .plan:nth-child(1) .plan__button {
     color: #f7fafc;
-    background: linear-gradient(135deg, rgb(76, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
 .plan:nth-child(2) {
